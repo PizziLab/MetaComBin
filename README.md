@@ -10,7 +10,15 @@ MetaProb: https://bitbucket.org/samu661/metaprob/src/master/
 ---
 
 Step 1 : Run AbundanceBin
-- AbundancdeBin takes as input a single fasta file. If you are working with paired-end reads (e.g. dataset.fasta.1 and dataset.fasta.2), you must provide a single input dataset.fasta file that is a combined version of the .1 and .2 paired end files 
+-AbundancdeBin takes as input a single fasta file. If you are working with paired-end reads (e.g. dataset.fasta.1 and dataset.fasta.2), you must provide a single input dataset.fasta file that is a combined version of the .1 and .2 paired end files. The format should be:
+
+read1.1
+read2.1
+read3.1
+read1.2
+read2.2
+read3.2
+
 
 Example for running from the command line:
 
